@@ -1,0 +1,66 @@
+1) Qual dessas NÃO é uma Tag da linguagem de marcação HTML?
+    a) <!DOCTYPE html> [CORRETA]
+    b) <strong>
+    c) <i>
+    d) <meta>
+
+2) Qual das Tags abaixo, serve para deixar o texto em itálico?
+    a) <b>
+    b) <italic>
+    c) <i> [CORRETA]
+    d) <small>
+
+3) Qual linha abaixo deixaria o texto de uma tag P sublinhada?
+    a) <p> <sub> texto sublinhado </sub></p>
+    b) <p> <i> texto sublinhado </i> </p>
+    c) <p> <u> texto sublinhado </u> </p> [CORRETA]
+    d) <p> <strong> texto sublinado </strong> </p>
+
+4) Qual das opções abaixo serve para adicionarmos um css externo à nosssa página HTML?
+    a) <link rel="stylesheet" type="text/css" href="estilo.css"> [CORRETA]
+    b) <a href="estilo.css"></a>
+    c) <link rel="estilo.css />
+    d) <link rel="stylesheet" type="text/css" src="estilo.css">
+
+5) HTML é uma?
+    a) Linguagem de marcação de texto [CORRETA]
+    b) Linguagem de programação voltada a web
+    c) Linguagem de programação orientada a web
+    d) Lingagem de folha de estilo em cascata
+
+-------------------------------
+EXPLICAÇÃO
+
+1 - a tag <!DOCTYPE html> diz para o navegador que o tipo de documento que ele está abrindo é um arquivo HTML. Essa tag NÃO é excluiva para o HTML, por exemplo. Também é usada para dizer para o navegadore que ele está abrindo um arquivo .xml... EX: <!DOCTYPE xml>.
+
+2 - a tag <i> deixa o texto em itálico. EX: <i> Sou um texto em itálico </i>
+
+3 - a tag <u> deixa seu texto sublinahdo, ou seja, com uma linha embaixo dele. Como vem do inglês "Underline" que traduzindo para o português fica: "sublinhado", é justamente por isso que a tag é <u>, "u" de "underline".
+
+4 - a tag <link> precisa de atributos e valores nesses atributos. Ela não é só usada para indicar css externo, mas também para outros tipos de arquivos e necessidades. 
+    - O atributo "rel="stylesheet"" serve para você dizer para o navegador que é uma folha de estilo que você quer "pegar" para seu site.
+    - O atributo " type="text/css"" diz que o tipo de arquivo que você está chamando pode ser um .txt/.css.
+    - O atributo  "href="estilo.css"" nada mais que é onde você coloca o endereço de seu css externo.
+5 - O HTML é uma linguagem de marcação de texto.
+
+
+
+
+
+
+
+
+  <p id="p0" class="pergunta"></p>
+                <select name="pergunta1" id="pergunta0" size="5"></select>
+
+                <p id="p1" class="pergunta"></p>
+                <select name="pergunta1" id="pergunta1" size="5"></select>
+
+                <p id="p2" class="pergunta"></p>
+                <select name="pergunta1" id="pergunta2" size="5"></select>
+
+                <p id="p3" class="pergunta"></p>
+                <select name="pergunta1" id="pergunta3" size="5"></select>
+
+                <p id="p4" class="pergunta"></p>
+                <select name="pergunta1" id="pergunta4" size="5"></select>

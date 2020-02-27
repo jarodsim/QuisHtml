@@ -1,0 +1,100 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: rgb(34, 74, 184);
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+    text-align: center;
+    margin: 20px 20px;
+}
+
+section {
+    text-align: center;
+    background-color: rgb(49, 109, 221);
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.288);
+}
+
+select {
+    min-height: 130px;
+    border-radius: 8px;
+    width: 90%;
+    margin-top: 10px;
+}
+
+
+option {
+    text-align: center;
+    margin-top: 5px;
+    font-size: 15px;
+}
+
+p {
+    margin: 20px;
+}
+
+footer {
+    text-align: center;
+    margin: 20px;
+    font-style: italic;
+}
+
+input {
+    border: solid 1px rgba(0, 0, 0, 0.205);
+    border-radius: 5px;
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    font-size: 15px;
+    padding: 2px;
+    color: white;
+    background-color: rgb(34, 74, 184);
+    outline: none;
+    cursor: pointer;
+}
+
+ul {
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+}
+
+#titulo_resultado {
+    margin: 20px 0px;
+}
+
+#explicacao {
+    display: none;
+    margin: 0px 0px 10px 0px;
+    max-width: 100%;
+    padding: 10px 0px;
+    background-color: rgb(34, 74, 184);
+}
+
+#explicacao p::first-letter {
+    font-weight: bold;
+}
+
+
+@media screen and (max-width: 500px) {
+    select {
+        width: 100%;
+        margin-left: 0px;
+        margin-right: 0px;
+        padding: 0px;
+    }
+}
